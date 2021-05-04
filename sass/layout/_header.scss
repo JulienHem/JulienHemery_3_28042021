@@ -1,14 +1,13 @@
 
-  .header {
-    .header__logo {
-      width: 200px;
-      display: flex;
-      justify-content: center;
-    }
-    .test {
-      font-size: 50px;
-    }
+.header {
+  display: flex;
+  justify-content: center;
+
+  .header__logo {
+    width: 200px;
   }
+
+}
 
 
 

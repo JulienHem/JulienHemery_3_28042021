@@ -1,10 +1,9 @@
-.header .header__logo {
-  width: 200px;
+.header {
   display: flex;
   justify-content: center;
 }
-.header .test {
-  font-size: 50px;
+.header .header__logo {
+  width: 200px;
 }
 
 /*# sourceMappingURL=main.css.map */
