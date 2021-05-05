@@ -1,0 +1,28 @@
+.footer {
+  background-color: #484848;
+  height: 180px;
+  padding-left: 20px;
+  padding-top: 20px;
+  color: white;
+
+  &__infos {
+    padding-bottom: 10px;
+
+  }
+
+  &__infos__logo {
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    &__propose {
+      margin-right: 15px;
+    }
+    &__handshake {
+      margin-right: 15px;
+      transform: scale(1, 1);
+    }
+  }
+}
+
