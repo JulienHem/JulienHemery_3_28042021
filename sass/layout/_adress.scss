@@ -1,0 +1,19 @@
+.address {
+  background-color: #e7e7e7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  box-shadow: inset 0 5px 9px -7px rgba(0, 0, 0, 0.4);
+  height: 60px;
+
+  &__logo {
+    margin-right: 1rem;
+  }
+
+  &__location {
+    padding-top: 2px;
+    font-family: 'Shrikhand', sans-serif;
+    font-weight: bold;
+  }
+}

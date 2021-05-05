@@ -1,0 +1,63 @@
+.restaurants {
+  background-color: #f3f3f3;
+  padding: 1.7rem 1.7rem 4rem 1.7rem;
+
+
+  &__card {
+    margin-top: 20px;
+    border-radius: 15px;
+
+    &--img {
+      border-top-right-radius: 15px;
+      border-top-left-radius: 15px;
+      width: 100%;
+      object-fit: cover;
+    }
+    &--new {
+      width: 100px;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      background-color: #99E2D0;
+      color: #4e7367;
+      text-align: center;
+      font-weight: bold;
+      position: absolute;
+      margin-top: 10px;
+      margin-left: 55%;
+    }
+
+    &__bottom {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      background-color: white;
+      border-bottom-right-radius: 15px;
+      border-bottom-left-radius: 15px;
+      height: 70px;
+      padding-left: 10px;
+      padding-right: 20px;
+      margin-top: -5px;
+
+      &--icon {
+        font-size: 25px;
+      }
+
+      &__infos {
+        display: flex;
+        flex-direction: column;
+
+        &--title {
+          font-family: 'Shrikhand', sans-serif;
+          font-weight: bold;
+          font-size: 18px;
+          padding-bottom: 5px;
+        }
+
+        &--description {
+          font-family: 'Shrikhand', sans-serif;
+        }
+      }
+    }
+  }
+}
