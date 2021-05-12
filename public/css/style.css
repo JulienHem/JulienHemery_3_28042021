@@ -61,7 +61,6 @@ textarea {
 }
 .address__location {
   padding-top: 2px;
-  font-family: "Shrikhand", sans-serif;
   font-weight: bold;
 }
 
@@ -222,6 +221,7 @@ textarea {
   height: 180px;
   padding-left: 20px;
   padding-top: 20px;
+  padding-bottom: 25px;
   color: white;
 }
 .footer__infos {
@@ -285,6 +285,7 @@ textarea {
 .menu__title h1 {
   font-weight: lighter;
   font-family: "Shrikhand", cursive;
+  font-size: 28px;
 }
 .menu .heart > svg {
   width: 25px;
@@ -328,6 +329,18 @@ textarea {
   border-radius: 15px;
   box-shadow: 0 6px 9px 0 rgba(111, 111, 111, 0.1);
   margin-top: 15px;
+  cursor: pointer;
+  animation: cardFade 1s ease-in 0s 1;
+}
+@keyframes cardFade {
+  from {
+    opacity: 0;
+    transform: translateY(30%);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 .menu__sub__card__detail {
   display: flex;
@@ -370,6 +383,11 @@ textarea {
   padding-top: 1rem;
   padding-bottom: 1rem;
   cursor: pointer;
+  transition: 0.3s;
+}
+
+.française__button:hover {
+  box-shadow: 0 0 6px 2px rgba(111, 111, 111, 0.4);
 }
 
 /*# sourceMappingURL=style.css.map */
