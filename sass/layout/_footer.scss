@@ -1,5 +1,5 @@
 .footer {
-  background-color: #484848;
+  background-color: #2b2b2b;
   height: 180px;
   padding-left: 20px;
   padding-top: 20px;
@@ -7,7 +7,15 @@
 
   &__infos {
     padding-bottom: 10px;
+  }
 
+  svg > path {
+    fill: white;
+  }
+
+  &__logo {
+    width: 120px;
+    margin-bottom: 10px;
   }
 
   &__infos__logo {
@@ -19,6 +27,7 @@
     &__propose {
       margin-right: 15px;
     }
+
     &__handshake {
       margin-right: 15px;
       transform: scale(1, 1);

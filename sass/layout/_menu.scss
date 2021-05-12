@@ -1,0 +1,135 @@
+.restaurant__body {
+  background-color: #f3f3f3;
+}
+
+.arrow__icon{
+  font-size: 20px;
+  display: flex !important;
+  align-items: center;
+  position: relative;
+  left: -15%;
+
+}
+
+.menu {
+  background-color: #f3f3f3;
+  border-top-right-radius: 45px;
+  border-top-left-radius: 45px;
+  position: relative;
+  top: -55px;
+
+
+  &__title {
+    padding: 35px 30px 0 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+
+   h1 {
+     font-weight: lighter;
+     font-family: 'Shrikhand', cursive;;
+   }
+  }
+
+  .heart > svg{
+    width: 25px;
+    color: white;
+    path {
+      fill :transparent;
+      stroke-width :25;
+      stroke : black;
+    }
+  }
+
+  .heart:hover svg * {
+    animation : heart 0.5s ;
+    transform-origin : bottom;
+    animation-fill-mode : forwards;
+    fill: url(#grad2);
+  }
+
+  @keyframes heart {
+    0% {
+      transform : scale(0);
+      fill: url(#grad2);
+      stroke : transparent ;
+
+    }
+    100% {
+      transform :scale(1);
+      stroke : transparent ;
+
+    }
+  }
+
+  &__sub {
+
+    padding: 20px 20px 35px 20px;
+
+    &__title {
+      text-transform: uppercase;
+
+      &--border {
+        margin-top: 5px;
+        width: 12%;
+        border-bottom: 3px solid #99E2D0;
+      }
+    }
+
+    &__card {
+      background-color: #ffff;
+      border-radius: 15px;
+      box-shadow: 0 6px 9px 0 rgba(111,111,111,0.1);
+      margin-top: 15px;
+
+
+      &__detail {
+        display: flex;
+        flex-direction: column;
+        padding: 10px 20px 10px 15px;
+
+        &--title {
+          font-weight: bold;
+          font-size: 17px;
+          margin-bottom: 5px;
+        }
+
+        &__bottom {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+
+          &--desc {
+            font-size: 15px;
+            font-weight: lighter;
+          }
+
+          &--price {
+            font-size: 15px;
+            font-weight: bold;
+          }
+        }
+      }
+    }
+  }
+}
+
+.order__button {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+.française__button {
+  width: 200px;
+  border: none;
+  color: white;
+  background: linear-gradient(to bottom right, #FF79DA, #9356DC);
+  border-radius: 50px;
+  font-size: 17px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  cursor: pointer;
+}
