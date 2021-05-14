@@ -119,6 +119,9 @@
           &--desc {
             font-size: 15px;
             font-weight: lighter;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            overflow: hidden;
           }
 
           &--price {
@@ -129,6 +132,15 @@
       }
     }
   }
+}
+
+
+#delay__first{
+  animation-delay: 0.2s;
+}
+
+#delay__second {
+  animation-delay: 0.4s;
 }
 
 .order__button {

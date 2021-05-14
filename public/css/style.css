@@ -254,6 +254,7 @@ textarea {
 .restaurant__img {
   height: 100%;
   width: 100%;
+  object-fit: cover;
 }
 
 .restaurant__body {
@@ -360,10 +361,21 @@ textarea {
 .menu__sub__card__detail__bottom--desc {
   font-size: 15px;
   font-weight: lighter;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 .menu__sub__card__detail__bottom--price {
   font-size: 15px;
   font-weight: bold;
+}
+
+#delay__first {
+  animation-delay: 0.2s;
+}
+
+#delay__second {
+  animation-delay: 0.4s;
 }
 
 .order__button {
