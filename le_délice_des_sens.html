@@ -14,7 +14,9 @@
 </head>
 
 <header class="header">
-    <i class="fas fa-arrow-left arrow__icon"></i>
+    <a class="arrow__icon" href="./index.html">
+    <i class="fas fa-arrow-left"></i>
+    </a>
     <img class="header__logo" src="public/img/ohmyfood.png" alt="logo">
 </header>
 
@@ -24,184 +26,189 @@
 </div>
 
 <div class="menu">
-    <div class="menu__title">
-        <h1>Le délice des sens</h1>
-        <div class="icon heart">
-            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="heart"
-                 class="svg-inline--fa fa-heart fa-w-16" role="img"
-                 xmlns="http://www.w3.org/2000/svg" viewBox="-10 4 530 500">
-                <path fill="currentColor"
-                      d="M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256 96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z">
-                </path>
+    <div class="menu__container">
+        <div class="menu__title">
+            <h1>Le délice des sens</h1>
+            <div class="icon heart">
+                <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="heart"
+                     class="svg-inline--fa fa-heart fa-w-16" role="img"
+                     xmlns="http://www.w3.org/2000/svg" viewBox="-10 4 530 500">
+                    <path fill="currentColor"
+                          d="M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256 96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z">
+                    </path>
 
-                <defs>
-                    <linearGradient id="grad2" x1="0%" y1="0%" x2="0%" y2="100%">
-                        <stop offset="0%" style="stop-color:rgb(145, 63, 207);stop-opacity:1"/>
-                        <stop offset="100%"
-                              style="stop-color:rgb(246, 130, 229);stop-opacity:1"/>
-                    </linearGradient>
-                </defs>
-            </svg>
-        </div>
-    </div>
-
-    <div class="menu__sub">
-        <div class="menu__sub__title">Entrées</div>
-        <div class="menu__sub__title--border"></div>
-        <div class="menu__sub__card" id="delay__first">
-            <div class="menu__sub__card__detail">
-                <div class="menu__sub__card__detail--title">Tartare de thon</div>
-                <div class="menu__sub__card__detail__bottom">
-                    <div class="menu__sub__card__detail__bottom--desc">Assaisonné au yuzu</div>
-                </div>
-            </div>
-            <div class="menu__sub__card__detail__bottom--price">25€</div>
-
-            <div class="menu__sub__card--validation">
-                <div class="menu__sub__card--validation__icon">
-                    <i class="fas fa-check menu__icon"></i>
-                </div>
+                    <defs>
+                        <linearGradient id="grad2" x1="0%" y1="0%" x2="0%" y2="100%">
+                            <stop offset="0%" style="stop-color:rgb(145, 63, 207);stop-opacity:1"/>
+                            <stop offset="100%"
+                                  style="stop-color:rgb(246, 130, 229);stop-opacity:1"/>
+                        </linearGradient>
+                    </defs>
+                </svg>
             </div>
         </div>
 
-        <div class="menu__sub__card" id="delay__second">
-            <div class="menu__sub__card__detail">
-                <div class="menu__sub__card__detail--title">Bouchée de homard croustillant</div>
-                <div class="menu__sub__card__detail__bottom">
-                    <div class="menu__sub__card__detail__bottom--desc">Et sa farandole de petits légumes</div>
+        <div class="menu__responsive">
+
+            <div class="menu__sub">
+                <div class="menu__sub__title">Entrées</div>
+                <div class="menu__sub__title--border"></div>
+                <div class="menu__sub__card" id="delay__first">
+                    <div class="menu__sub__card__detail">
+                        <div class="menu__sub__card__detail--title">Tartare de thon</div>
+                        <div class="menu__sub__card__detail__bottom">
+                            <div class="menu__sub__card__detail__bottom--desc">Assaisonné au yuzu</div>
+                        </div>
+                    </div>
+                    <div class="menu__sub__card__detail__bottom--price">25€</div>
+
+                    <div class="menu__sub__card--validation">
+                        <div class="menu__sub__card--validation__icon">
+                            <i class="fas fa-check menu__icon"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu__sub__card" id="delay__second">
+                    <div class="menu__sub__card__detail">
+                        <div class="menu__sub__card__detail--title">Bouchée de homard croustillant</div>
+                        <div class="menu__sub__card__detail__bottom">
+                            <div class="menu__sub__card__detail__bottom--desc">Et sa farandole de petits légumes</div>
+                        </div>
+                    </div>
+                    <div class="menu__sub__card__detail__bottom--price">35€</div>
+
+                    <div class="menu__sub__card--validation">
+                        <div class="menu__sub__card--validation__icon">
+                            <i class="fas fa-check menu__icon"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu__sub__card" id="delay__third">
+                    <div class="menu__sub__card__detail">
+                        <div class="menu__sub__card__detail--title">Velouté de cèpes</div>
+                        <div class="menu__sub__card__detail__bottom">
+                            <div class="menu__sub__card__detail__bottom--desc">Aux truffes</div>
+                        </div>
+                    </div>
+                    <div class="menu__sub__card__detail__bottom--price">20€</div>
+
+                    <div class="menu__sub__card--validation">
+                        <div class="menu__sub__card--validation__icon">
+                            <i class="fas fa-check menu__icon"></i>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="menu__sub__card__detail__bottom--price">35€</div>
 
-            <div class="menu__sub__card--validation">
-                <div class="menu__sub__card--validation__icon">
-                    <i class="fas fa-check menu__icon"></i>
+
+            <div class="menu__sub">
+                <div class="menu__sub__title">Plats</div>
+                <div class="menu__sub__title--border"></div>
+                <div class="menu__sub__card" id="delay__fourth">
+                    <div class="menu__sub__card__detail">
+                        <div class="menu__sub__card__detail--title">Poulet rôti aux herbes de provence</div>
+                        <div class="menu__sub__card__detail__bottom">
+                            <div class="menu__sub__card__detail__bottom--desc">Et sa crème de truffe</div>
+                        </div>
+                    </div>
+                    <div class="menu__sub__card__detail__bottom--price">40€</div>
+                    <div class="menu__sub__card--validation">
+                        <div class="menu__sub__card--validation__icon">
+                            <i class="fas fa-check menu__icon"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu__sub__card" id="delay__fifth">
+                    <div class="menu__sub__card__detail">
+                        <div class="menu__sub__card__detail--title">Langouste rôtie</div>
+                        <div class="menu__sub__card__detail__bottom">
+                            <div class="menu__sub__card__detail__bottom--desc">Et ses légumes de saison</div>
+                        </div>
+                    </div>
+                    <div class="menu__sub__card__detail__bottom--price">35€</div>
+
+                    <div class="menu__sub__card--validation">
+                        <div class="menu__sub__card--validation__icon">
+                            <i class="fas fa-check menu__icon"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu__sub__card" id="delay__sixth">
+                    <div class="menu__sub__card__detail">
+                        <div class="menu__sub__card__detail--title">Côte de boeuf angus</div>
+                        <div class="menu__sub__card__detail__bottom">
+                            <div class="menu__sub__card__detail__bottom--desc">Et sa purée de panais</div>
+                        </div>
+                    </div>
+                    <div class="menu__sub__card__detail__bottom--price">44€</div>
+                    <div class="menu__sub__card--validation">
+                        <div class="menu__sub__card--validation__icon">
+                            <i class="fas fa-check menu__icon"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu__sub">
+                <div class="menu__sub__title">Desserts</div>
+                <div class="menu__sub__title--border"></div>
+                <div class="menu__sub__card" id="delay__seventh">
+                    <div class="menu__sub__card__detail">
+                        <div class="menu__sub__card__detail--title">Farandole de desserts</div>
+                        <div class="menu__sub__card__detail__bottom">
+                            <div class="menu__sub__card__detail__bottom--desc">Du chef</div>
+                        </div>
+                    </div>
+                    <div class="menu__sub__card__detail__bottom--price">18€</div>
+
+                    <div class="menu__sub__card--validation">
+                        <div class="menu__sub__card--validation__icon">
+                            <i class="fas fa-check menu__icon"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu__sub__card" id="delay__eighth">
+                    <div class="menu__sub__card__detail">
+                        <div class="menu__sub__card__detail--title">Crème brulée</div>
+                        <div class="menu__sub__card__detail__bottom">
+                            <div class="menu__sub__card__detail__bottom--desc">Revisité</div>
+                        </div>
+                    </div>
+                    <div class="menu__sub__card__detail__bottom--price">22€</div>
+
+                    <div class="menu__sub__card--validation">
+                        <div class="menu__sub__card--validation__icon">
+                            <i class="fas fa-check menu__icon"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu__sub__card" id="delay__nine">
+                    <div class="menu__sub__card__detail">
+                        <div class="menu__sub__card__detail--title">Tiramisu</div>
+                        <div class="menu__sub__card__detail__bottom">
+                            <div class="menu__sub__card__detail__bottom--desc">A la noisette</div>
+                        </div>
+                    </div>
+                    <div class="menu__sub__card__detail__bottom--price">23€</div>
+
+                    <div class="menu__sub__card--validation">
+                        <div class="menu__sub__card--validation__icon">
+                            <i class="fas fa-check menu__icon"></i>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
 
-        <div class="menu__sub__card" id="delay__third">
-            <div class="menu__sub__card__detail">
-                <div class="menu__sub__card__detail--title">Velouté de cèpes</div>
-                <div class="menu__sub__card__detail__bottom">
-                    <div class="menu__sub__card__detail__bottom--desc">Aux truffes</div>
-                </div>
-            </div>
-            <div class="menu__sub__card__detail__bottom--price">20€</div>
-
-            <div class="menu__sub__card--validation">
-                <div class="menu__sub__card--validation__icon">
-                    <i class="fas fa-check menu__icon"></i>
-                </div>
-            </div>
+        <div class="order__button">
+            <button class="française__button">Commander</button>
         </div>
-    </div>
-
-
-    <div class="menu__sub">
-        <div class="menu__sub__title">Plats</div>
-        <div class="menu__sub__title--border"></div>
-        <div class="menu__sub__card" id="delay__fourth">
-            <div class="menu__sub__card__detail">
-                <div class="menu__sub__card__detail--title">Poulet rôti aux herbes de provence</div>
-                <div class="menu__sub__card__detail__bottom">
-                    <div class="menu__sub__card__detail__bottom--desc">Et sa crème de truffe</div>
-                </div>
-            </div>
-            <div class="menu__sub__card__detail__bottom--price">40€</div>
-            <div class="menu__sub__card--validation">
-                <div class="menu__sub__card--validation__icon">
-                    <i class="fas fa-check menu__icon"></i>
-                </div>
-            </div>
-        </div>
-
-        <div class="menu__sub__card" id="delay__fifth">
-            <div class="menu__sub__card__detail">
-                <div class="menu__sub__card__detail--title">Langouste rôtie</div>
-                <div class="menu__sub__card__detail__bottom">
-                    <div class="menu__sub__card__detail__bottom--desc">Et ses légumes de saison</div>
-                </div>
-            </div>
-            <div class="menu__sub__card__detail__bottom--price">35€</div>
-
-            <div class="menu__sub__card--validation">
-                <div class="menu__sub__card--validation__icon">
-                    <i class="fas fa-check menu__icon"></i>
-                </div>
-            </div>
-        </div>
-
-        <div class="menu__sub__card" id="delay__sixth">
-            <div class="menu__sub__card__detail">
-                <div class="menu__sub__card__detail--title">Côte de boeuf angus</div>
-                <div class="menu__sub__card__detail__bottom">
-                    <div class="menu__sub__card__detail__bottom--desc">Et sa purée de panais</div>
-                </div>
-            </div>
-            <div class="menu__sub__card__detail__bottom--price">44€</div>
-            <div class="menu__sub__card--validation">
-                <div class="menu__sub__card--validation__icon">
-                    <i class="fas fa-check menu__icon"></i>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="menu__sub">
-        <div class="menu__sub__title">Desserts</div>
-        <div class="menu__sub__title--border"></div>
-        <div class="menu__sub__card" id="delay__seventh">
-            <div class="menu__sub__card__detail">
-                <div class="menu__sub__card__detail--title">Farandole de desserts</div>
-                <div class="menu__sub__card__detail__bottom">
-                    <div class="menu__sub__card__detail__bottom--desc">Du chef</div>
-                </div>
-            </div>
-            <div class="menu__sub__card__detail__bottom--price">18€</div>
-
-            <div class="menu__sub__card--validation">
-                <div class="menu__sub__card--validation__icon">
-                    <i class="fas fa-check menu__icon"></i>
-                </div>
-            </div>
-        </div>
-
-        <div class="menu__sub__card" id="delay__eighth">
-            <div class="menu__sub__card__detail">
-                <div class="menu__sub__card__detail--title">Crème brulée</div>
-                <div class="menu__sub__card__detail__bottom">
-                    <div class="menu__sub__card__detail__bottom--desc">Revisité</div>
-                </div>
-            </div>
-            <div class="menu__sub__card__detail__bottom--price">22€</div>
-
-            <div class="menu__sub__card--validation">
-                <div class="menu__sub__card--validation__icon">
-                    <i class="fas fa-check menu__icon"></i>
-                </div>
-            </div>
-        </div>
-
-        <div class="menu__sub__card" id="delay__nine">
-            <div class="menu__sub__card__detail">
-                <div class="menu__sub__card__detail--title">Tiramisu</div>
-                <div class="menu__sub__card__detail__bottom">
-                    <div class="menu__sub__card__detail__bottom--desc">A la noisette</div>
-                </div>
-            </div>
-            <div class="menu__sub__card__detail__bottom--price">23€</div>
-
-            <div class="menu__sub__card--validation">
-                <div class="menu__sub__card--validation__icon">
-                    <i class="fas fa-check menu__icon"></i>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="order__button">
-        <button class="française__button">Commander</button>
     </div>
 </div>
 </body>

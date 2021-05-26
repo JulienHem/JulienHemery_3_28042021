@@ -8,15 +8,18 @@
   align-items: center;
   position: relative;
   left: -15%;
-
 }
 
 .menu {
-  background-color: #f3f3f3;
-  border-top-right-radius: 45px;
-  border-top-left-radius: 45px;
-  position: relative;
-  top: -55px;
+
+
+  &__container {
+    background-color: #f3f3f3;
+    border-top-right-radius: 45px;
+    border-top-left-radius: 45px;
+    position: relative;
+    margin-top: -5em;
+  }
 
   &__icon {
     color: #99e2d0;
@@ -81,7 +84,7 @@
 
   &__sub {
 
-    padding: 20px 20px 35px 20px;
+    padding: 20px 20px 0 20px;
 
     &__title {
       text-transform: uppercase;
@@ -247,8 +250,8 @@
 .order__button {
   display: flex;
   justify-content: center;
-  margin-top: 20px;
-  margin-bottom: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .française__button {
@@ -274,4 +277,41 @@
 
 @media (min-width: 960px) {
 
+  .arrow__icon {
+
+    left: -30%;
+  }
+
+
+  .restaurant__body {
+    background-color: #fff;
+  }
+
+  .menu {
+
+    &__container {
+      max-width: 1450px;
+      margin-right: auto;
+      margin-left: auto;
+    }
+
+
+    &__sub {
+      max-width: 100%;
+
+      &__card {
+        max-width: 100%;
+      }
+    }
+
+    &__responsive {
+      display: grid;
+      grid-template-columns: repeat(3,1fr);
+      column-gap: 1rem;
+    }
+  }
+
+  .order__button {
+    margin-bottom: 0;
+  }
 }

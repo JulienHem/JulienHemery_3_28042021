@@ -2,16 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1155c371-297b-48fb-9180-7738992295c8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/sass/layout/_loader.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/a_la_francaise.html" beforeDir="false" afterPath="$PROJECT_DIR$/a_la_francaise.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/la_note_enchantée.html" beforeDir="false" afterPath="$PROJECT_DIR$/la_note_enchantée.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/la_palette_du_gout.html" beforeDir="false" afterPath="$PROJECT_DIR$/la_palette_du_gout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/le_délice_des_sens.html" beforeDir="false" afterPath="$PROJECT_DIR$/le_délice_des_sens.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/layout/_fonctionnement.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/layout/_fonctionnement.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/layout/_footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/layout/_footer.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/base/_base.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/base/_base.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sass/layout/_menu.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/layout/_menu.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/layout/_reservation.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/layout/_reservation.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sass/layout/_restaurants.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/layout/_restaurants.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/main.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +100,7 @@
       <workItem from="1621623799959" duration="28000" />
       <workItem from="1621623838406" duration="642000" />
       <workItem from="1621625454272" duration="1055000" />
-      <workItem from="1622013517687" duration="4665000" />
+      <workItem from="1622013517687" duration="11392000" />
     </task>
     <servers />
   </component>
