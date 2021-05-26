@@ -29,3 +29,15 @@
     cursor: pointer;
   }
 }
+////////////////// RESPONSIVE ///////////////////
+
+@media (min-width: 960px) {
+
+  .reservation {
+
+    &__button {
+      margin-right: 30%;
+      margin-left: 30%;
+    }
+  }
+}

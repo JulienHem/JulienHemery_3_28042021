@@ -2,7 +2,6 @@
   background-color: #f3f3f3;
   padding: 1.7rem 1.7rem 4rem 1.7rem;
 
-
   &__card {
     margin-top: 20px;
     border-radius: 15px;
@@ -85,6 +84,34 @@
 
         &--description {
         }
+      }
+    }
+  }
+}
+
+
+///////////////////// RESPONSIVE //////////////////////
+
+@media (min-width: 960px) {
+  .restaurants {
+
+    > h1 {
+      text-align: center;
+    }
+
+    &__responsive {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+
+    &__card {
+      width: 425px;
+      margin-right: 25px;
+
+      &--img{
+        height: 225px;
       }
     }
   }

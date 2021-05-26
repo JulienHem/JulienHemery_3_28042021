@@ -93,21 +93,32 @@ textarea {
   cursor: pointer;
 }
 
+@media (min-width: 960px) {
+  .reservation__button {
+    margin-right: 30%;
+    margin-left: 30%;
+  }
+}
 .fonctionnement {
   margin-bottom: 50px;
+}
+.fonctionnement > h1 {
+  padding: 1.7rem 1.7rem 0 1.7rem;
 }
 .fonctionnement__wrapper {
   display: flex;
   flex-direction: row;
   align-items: center;
   background-color: #f3f3f3;
+  margin-right: 25px;
+  margin-left: 25px;
   border-radius: 20px;
   padding-top: 22px;
   padding-bottom: 22px;
   box-shadow: 3px 4px 8px 2px rgba(174, 174, 174, 0.3);
-  margin-left: 15px;
   margin-top: 25px;
   transition: 0.2s;
+  cursor: pointer;
 }
 .fonctionnement__wrapper:hover {
   background-color: rgba(204, 153, 244, 0.2);
@@ -139,6 +150,22 @@ textarea {
   font-weight: bold;
 }
 
+@media (min-width: 960px) {
+  .fonctionnement > h1 {
+    text-align: center;
+  }
+  .fonctionnement__wrapper {
+    width: 300px;
+    padding-right: 5px;
+  }
+  .fonctionnement__responsive {
+    margin-right: 30%;
+    margin-left: 41%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
 .restaurants {
   background-color: #f3f3f3;
   padding: 1.7rem 1.7rem 4rem 1.7rem;
@@ -216,6 +243,24 @@ textarea {
   font-size: 18px;
   padding-bottom: 5px;
 }
+@media (min-width: 960px) {
+  .restaurants > h1 {
+    text-align: center;
+  }
+  .restaurants__responsive {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .restaurants__card {
+    width: 425px;
+    margin-right: 25px;
+  }
+  .restaurants__card--img {
+    height: 225px;
+  }
+}
 .footer {
   background-color: #2b2b2b;
   height: 180px;
@@ -244,8 +289,7 @@ textarea {
   margin-right: 15px;
 }
 .footer__infos__logo__handshake {
-  margin-right: 15px;
-  transform: scale(1, 1);
+  margin-right: 8px;
 }
 
 .restaurant {
@@ -299,6 +343,11 @@ textarea {
   fill: transparent;
   stroke-width: 25;
   stroke: black;
+}
+.menu #grad2 > stop {
+  offset: 0;
+  stop-color: #913fcf;
+  stop-opacity: 1;
 }
 .menu .heart:hover svg * {
   animation: heart 0.5s;

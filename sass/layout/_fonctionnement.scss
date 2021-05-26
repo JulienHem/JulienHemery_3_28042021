@@ -1,18 +1,24 @@
 .fonctionnement {
   margin-bottom: 50px;
 
+  > h1 {
+    padding: 1.7rem 1.7rem 0 1.7rem;
+  }
+
   &__wrapper {
     display: flex;
     flex-direction: row;
     align-items: center;
     background-color: #f3f3f3;
+    margin-right: 25px;
+    margin-left: 25px;
     border-radius: 20px;
     padding-top: 22px;
     padding-bottom: 22px;
     box-shadow: 3px 4px 8px 2px rgba(174, 174, 174, 0.3);
-    margin-left: 15px;
     margin-top: 25px;
     transition: 0.2s;
+    cursor: pointer;
   }
 
   &__wrapper:hover {
@@ -23,31 +29,56 @@
     color: #9356DC;
   }
 
-    &__number {
-      background-color: #9356DC;
-      border-radius: 50px;
-      width: 25px;
-      height: 25px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      color: white;
-      font-weight: bold;
-      position: relative;
-      left: -12px;
-    }
-
-    &__icon {
-      margin-left: 10px;
-      margin-right: 25px;
-      font-size: 20px;
-      color: #6b6b6b;
-      transition: 0.2s;
-    }
-
-
-    &__text {
-      font-weight: bold;
-    }
-
+  &__number {
+    background-color: #9356DC;
+    border-radius: 50px;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    position: relative;
+    left: -12px;
   }
+
+  &__icon {
+    margin-left: 10px;
+    margin-right: 25px;
+    font-size: 20px;
+    color: #6b6b6b;
+    transition: 0.2s;
+  }
+
+
+  &__text {
+    font-weight: bold;
+  }
+
+}
+
+
+////////////////// RESPONSIVE ///////////////////
+
+@media (min-width: 960px) {
+  .fonctionnement {
+
+    > h1 {
+      text-align: center;
+    }
+
+    &__wrapper {
+      width: 300px;
+      padding-right: 5px;
+    }
+
+    &__responsive {
+      margin-right: 30%;
+      margin-left: 41%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+  }
+}
