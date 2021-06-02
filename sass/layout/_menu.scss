@@ -61,7 +61,7 @@
   }
 
 
-  .heart:hover svg * {
+  .heart:active svg * {
     animation: heart 0.5s;
     transform-origin: bottom;
     animation-fill-mode: forwards;
