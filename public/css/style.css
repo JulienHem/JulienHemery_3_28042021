@@ -394,17 +394,18 @@ textarea {
   box-shadow: 0 6px 9px 0 rgba(111, 111, 111, 0.1);
   margin-top: 15px;
   cursor: pointer;
-  animation: cardFade 1s ease-in 0s 1;
+  animation: cardFade 0.6s ease-in;
   white-space: nowrap;
   text-overflow: ellipsis;
   overflow: hidden;
+  animation-fill-mode: both;
 }
 @keyframes cardFade {
-  from {
+  0% {
     opacity: 0;
     transform: translateY(30%);
   }
-  to {
+  100% {
     opacity: 1;
     transform: translateY(0);
   }
@@ -479,12 +480,8 @@ textarea {
   font-weight: 900;
 }
 
-#delay__first {
-  animation-delay: 0.2s;
-}
-
 #delay__second {
-  animation-delay: 0.3s;
+  animation-delay: 0.2s;
 }
 
 #delay__third {
@@ -584,7 +581,7 @@ textarea {
   align-items: center;
   justify-content: center;
   background-color: rgba(186, 186, 186, 0.9);
-  animation: loader 2s;
+  animation: loader 3s;
   animation-fill-mode: none;
   z-index: -10;
   opacity: 0;
