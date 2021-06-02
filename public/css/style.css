@@ -226,7 +226,7 @@ textarea {
   stroke-width: 25;
   stroke: black;
 }
-.restaurants__card__bottom .heart:active svg * {
+.restaurants__card__bottom .heart:hover svg * {
   animation: heart 0.5s;
   transform-origin: bottom;
   animation-fill-mode: forwards;
@@ -358,7 +358,7 @@ textarea {
   stop-color: #913fcf;
   stop-opacity: 1;
 }
-.menu .heart:active svg * {
+.menu .heart:hover svg * {
   animation: heart 0.5s;
   transform-origin: bottom;
   animation-fill-mode: forwards;
